@@ -1,0 +1,39 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure Full Page Layout */
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout Wrapper */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* Ensures the full height of the page */
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;  /* Pushes footer down */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Centers vertically */
+  align-items: center;  /* Centers horizontally */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}

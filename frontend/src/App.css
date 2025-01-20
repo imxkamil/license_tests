@@ -1,0 +1,29 @@
+.quiz-container, .results-container {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.correct {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  margin: 5px;
+}
+
+.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin: 5px;
+}

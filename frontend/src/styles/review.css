@@ -1,0 +1,71 @@
+/* Review Container */
+.review-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Title */
+  .review-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Score */
+  .score-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Review List */
+  .review-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  /* Individual Question Box */
+  .review-item {
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  /* Correct Answer */
+  .correct {
+    border-color: #28a745;
+    background: #eaf9ea;
+    color: #155724;
+  }
+  
+  /* Incorrect Answer */
+  .incorrect {
+    border-color: #dc3545;
+    background: #fdecea;
+    color: #721c24;
+  }
+  
+  /* Unanswered */
+  .unanswered {
+    border-color: #6c757d;
+    background: #f2f2f2;
+    color: #343a40;
+  }
+  
+  /* Text Formatting */
+  .review-item p {
+    margin: 5px 0;
+  }
+  
+  .review-item strong {
+    font-weight: bold;
+  }
+  

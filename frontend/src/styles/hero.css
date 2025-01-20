@@ -1,0 +1,86 @@
+/* Hero Section */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Left Content */
+.hero-content {
+  max-width: 50%;
+  text-align: left;
+}
+
+/* Title Styling */
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+}
+
+.highlight {
+  color: #2196f3; /* Matches blue text effect */
+}
+
+/* Bullet Points */
+.hero-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.hero-list li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hero-list li span {
+  margin-left: 8px;
+}
+
+/* CTA Button */
+.cta-button {
+  background: linear-gradient(45deg, #3b82f6, #60a5fa);
+  color: white;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #2563eb, #3b82f6);
+}
+
+/* Right Image */
+.hero-image {
+  max-width: 50%;
+  position: relative;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Curved Background Shape */
+.hero-decoration {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  width: 600px;
+  height: 100%;
+  background: linear-gradient(45deg, #3b82f6, #60a5fa);
+  border-radius: 50% 0 0 50%;
+  z-index: -1;
+}
